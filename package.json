@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-worker-project",
+  "version": "0.0.1",
+  "scripts": {
+    "wrangler": "wrangler",
+    "w:login": "wrangler login",
+    "w:init": "wrangler init",
+    "dev": "wrangler dev",
+    "publish": "wrangler deploy",
+    "pretty": "prettier --write ./",
+    "update": "ncu -u"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^16.14.6",
+    "prettier": "^3.0.3",
+    "wrangler": "3.14.0"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.23",
+    "itty-router-extras": "^0.4.5"
+  }
+}
