@@ -1,12 +1,19 @@
 {
   "name": "cloudflare-worker-project",
   "version": "0.0.1",
+  "description": "Boilerplate to quickly get started with Cloudflare Workers instance with itty-router",
+  "author": {
+    "name": "Harshdeep Singh Hura",
+    "url": "https://harshdeephura.com"
+  },
   "scripts": {
+    "dev": "wrangler dev",
+    "publish": "wrangler deploy",
+    "-----> Wrangler <-----": "",
     "wrangler": "wrangler",
     "w:login": "wrangler login",
     "w:init": "wrangler init",
-    "dev": "wrangler dev",
-    "publish": "wrangler deploy",
+    "-----> utils <-----": "",
     "pretty": "prettier --write ./",
     "update": "ncu -u"
   },
@@ -16,7 +23,6 @@
     "wrangler": "3.14.0"
   },
   "dependencies": {
-    "itty-router": "^4.0.23",
-    "itty-router-extras": "^0.4.5"
+    "itty-router": "^4.0.23"
   }
 }

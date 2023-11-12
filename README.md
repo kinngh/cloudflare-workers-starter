@@ -5,5 +5,5 @@ Cloudflare Workers starter kit that comes with `wrangler` and `itty-router`, and
 ## Docs
 
 - Itty-router: https://github.com/kwhitley/itty-router
-- Itty-router-extras: https://github.com/kwhitley/itty-router-extras
+- Itty-router-extras | [Optional]: https://github.com/kwhitley/itty-router-extras
 - Cloudflare Worker documentation: https://developers.cloudflare.com/workers/
