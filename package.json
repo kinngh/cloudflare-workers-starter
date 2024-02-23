@@ -20,7 +20,7 @@
   "devDependencies": {
     "npm-check-updates": "^16.14.15",
     "prettier": "^3.2.5",
-    "wrangler": "3.28.2"
+    "wrangler": "3.29.0"
   },
   "dependencies": {
     "itty-router": "^4.0.27"
